@@ -1,0 +1,6 @@
+FontSheet
+{
+	numRows : 6
+	numCols : 16
+	texture : FontSheet.png
+}

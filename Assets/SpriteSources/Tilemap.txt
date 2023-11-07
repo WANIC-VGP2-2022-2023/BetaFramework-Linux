@@ -1,0 +1,6 @@
+Tilemap
+{
+	numRows : 3
+	numCols : 4
+	texture : Tilemap.png
+}

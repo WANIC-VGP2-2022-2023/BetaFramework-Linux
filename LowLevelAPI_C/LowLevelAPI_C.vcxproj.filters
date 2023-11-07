@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Precompiled">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{ea5c03d5-eb9d-45df-b5a1-db79adb72fcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{eb123765-2fd5-42bc-8a10-f7b1c32f5fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{578a8f43-9819-464e-b83c-8e3ebdd9702f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows\System">
+      <UniqueIdentifier>{02c24f6f-6f8d-4a82-a89d-14bf322aa750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows\Input">
+      <UniqueIdentifier>{0c6f375f-2c0b-465a-bd81-1a1b543965b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Vector">
+      <UniqueIdentifier>{7715c03b-10f4-4a05-b427-3a210cb59e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Matrix">
+      <UniqueIdentifier>{4cb5460d-8f8c-47d8-8352-132bf3e0e13c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\System">
+      <UniqueIdentifier>{8423c404-9739-46ce-80da-506bff009184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Resources">
+      <UniqueIdentifier>{86935f3b-020c-432f-9ebc-44316b3e0176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Camera">
+      <UniqueIdentifier>{12f43b5d-b8cc-444f-849b-d475c54b2aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Utility">
+      <UniqueIdentifier>{42ec1715-32d4-47f1-8010-42e6cd1bc063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Resources\Texture">
+      <UniqueIdentifier>{f25f33f6-e447-4781-96d3-bc3df2d4a83f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Resources\Mesh">
+      <UniqueIdentifier>{e1dfc069-a99e-4947-8fa0-907e110be828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Resources\Shaders">
+      <UniqueIdentifier>{67336e3e-a74a-4b7f-9214-0a3fbda213bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Debug">
+      <UniqueIdentifier>{e3b0ab85-1782-4ef4-b327-9c059d4232c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Effects">
+      <UniqueIdentifier>{55eb7ca1-4f46-4beb-ac16-4f5a7e3f750a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core\Objects">
+      <UniqueIdentifier>{009e4ce9-bd57-48d8-a8a3-28c9b35b436c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Framerate">
+      <UniqueIdentifier>{beab67ec-d9a8-4005-b385-c97176a920a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine">
+      <UniqueIdentifier>{13a4977e-c86a-4201-afa7-53ce72ca0411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Resources\Font">
+      <UniqueIdentifier>{07008250-ecfa-42bd-91fc-295089935d2c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\stdafx.h">
+      <Filter>Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BetaObject.h">
+      <Filter>Core\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Input.h">
+      <Filter>Windows\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Vector2D.h">
+      <Filter>Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Matrix2D.h">
+      <Filter>Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GraphicsEngine.h">
+      <Filter>Graphics\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Color.h">
+      <Filter>Graphics\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Camera.h">
+      <Filter>Graphics\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Shapes2D.h">
+      <Filter>Math\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EngineCore.h">
+      <Filter>Core\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WindowSystem.h">
+      <Filter>Windows\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Texture.h">
+      <Filter>Graphics\Resources\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Mesh.h">
+      <Filter>Graphics\Resources\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MeshFactory.h">
+      <Filter>Graphics\Resources\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Vertex.h">
+      <Filter>Graphics\Resources\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Random.h">
+      <Filter>Math\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interpolation.h">
+      <Filter>Math\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PostEffect.h">
+      <Filter>Graphics\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DebugDraw.h">
+      <Filter>Graphics\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ShaderProgram.h">
+      <Filter>Graphics\Resources\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FrameRateController.h">
+      <Filter>Core\Framerate</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BetaLowWindows.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BetaLowMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BetaLowGraphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BetaLowCore.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BetaLow.h" />
+    <ClInclude Include="include\EngineModulesGlobal.h">
+      <Filter>Core\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BetaLowExport.h" />
+    <ClInclude Include="include\Font.h">
+      <Filter>Graphics\Resources\Font</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BetaObject.cpp">
+      <Filter>Core\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>Precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input.cpp">
+      <Filter>Windows\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vector2D.cpp">
+      <Filter>Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Matrix2D.cpp">
+      <Filter>Math\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsEngine.cpp">
+      <Filter>Graphics\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Color.cpp">
+      <Filter>Graphics\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>Graphics\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shapes2D.cpp">
+      <Filter>Math\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineCore.cpp">
+      <Filter>Core\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowSystem.cpp">
+      <Filter>Windows\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Texture.cpp">
+      <Filter>Graphics\Resources\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh.cpp">
+      <Filter>Graphics\Resources\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MeshFactory.cpp">
+      <Filter>Graphics\Resources\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Random.cpp">
+      <Filter>Math\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Interpolation.cpp">
+      <Filter>Math\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShaderProgram.cpp">
+      <Filter>Graphics\Resources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PostEffect.cpp">
+      <Filter>Graphics\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DebugDraw.cpp">
+      <Filter>Graphics\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameRateController.cpp">
+      <Filter>Core\Framerate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineModulesGlobal.cpp">
+      <Filter>Core\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Font.cpp">
+      <Filter>Graphics\Resources\Font</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

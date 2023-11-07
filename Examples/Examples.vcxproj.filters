@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Precompiled">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{9217bee5-4f55-4c93-995c-8ecf2135847e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Levels">
+      <UniqueIdentifier>{1173bcbb-fef2-4d03-b892-54f03dffc918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Behaviors">
+      <UniqueIdentifier>{ce9912ab-8e83-4811-8827-32f71b2c2699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Levels\Source">
+      <UniqueIdentifier>{895c283c-8e6f-4cc0-b5b4-858a96232254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Levels\Text">
+      <UniqueIdentifier>{b99fbf4c-0f75-402d-9cfd-88487812cfa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects">
+      <UniqueIdentifier>{7fe66d64-71b3-4a8e-ac60-e0d21e623ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Text">
+      <UniqueIdentifier>{1d2ee28e-35fc-47f6-b646-b8026a8708b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Source">
+      <UniqueIdentifier>{c6f93843-fc50-4b25-998a-50a26a013bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effects">
+      <UniqueIdentifier>{09ac4306-e0c5-490d-a6e6-1897b05fd870}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\stdafx.cpp">
+      <Filter>Precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\Asteroid.cpp">
+      <Filter>Game\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Button.cpp">
+      <Filter>Game\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MonkeyAnimation.cpp">
+      <Filter>Game\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MonkeyMovement.cpp">
+      <Filter>Game\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerProjectile.cpp">
+      <Filter>Game\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerShip.cpp">
+      <Filter>Game\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ScreenWrap.cpp">
+      <Filter>Game\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TimedDeath.cpp">
+      <Filter>Game\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ColorChange.cpp">
+      <Filter>Game\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RaycastTest.cpp">
+      <Filter>Game\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy.cpp">
+      <Filter>Game\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CameraFollow.cpp">
+      <Filter>Game\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Asteroids.cpp">
+      <Filter>Game\Levels\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ChangeLevel.cpp">
+      <Filter>Game\Levels\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Level1.cpp">
+      <Filter>Game\Levels\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Level2.cpp">
+      <Filter>Game\Levels\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Omega.cpp">
+      <Filter>Game\Levels\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platformer.cpp">
+      <Filter>Game\Levels\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Test.cpp">
+      <Filter>Game\Levels\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Archetypes.cpp">
+      <Filter>Game\Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FadeToBlack.cpp">
+      <Filter>Game\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ColorInverter.cpp">
+      <Filter>Game\Effects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Asteroid.h">
+      <Filter>Game\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Button.h">
+      <Filter>Game\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\stdafx.h">
+      <Filter>Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MonkeyAnimation.h">
+      <Filter>Game\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MonkeyMovement.h">
+      <Filter>Game\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerProjectile.h">
+      <Filter>Game\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerShip.h">
+      <Filter>Game\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ScreenWrap.h">
+      <Filter>Game\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TimedDeath.h">
+      <Filter>Game\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RaycastTest.h">
+      <Filter>Game\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ColorChange.h">
+      <Filter>Game\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy.h">
+      <Filter>Game\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CameraFollow.h">
+      <Filter>Game\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Asteroids.h">
+      <Filter>Game\Levels\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ChangeLevel.h">
+      <Filter>Game\Levels\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Level1.h">
+      <Filter>Game\Levels\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Level2.h">
+      <Filter>Game\Levels\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Omega.h">
+      <Filter>Game\Levels\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platformer.h">
+      <Filter>Game\Levels\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Test.h">
+      <Filter>Game\Levels\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Behaviors.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Archetypes.h">
+      <Filter>Game\Objects\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FadeToBlack.h">
+      <Filter>Game\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ColorInverter.h">
+      <Filter>Game\Effects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Assets\Shaders\defaultShader.frag">
+      <Filter>Game\Effects</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\defaultShader.vert">
+      <Filter>Game\Effects</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\fadeToBlack.frag">
+      <Filter>Game\Effects</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\passthroughShader.frag">
+      <Filter>Game\Effects</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\passthroughShader.vert">
+      <Filter>Game\Effects</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Assets\Levels\Platformer.txt">
+      <Filter>Game\Levels\Text</Filter>
+    </Text>
+    <Text Include="..\Assets\Objects\Arena.txt">
+      <Filter>Game\Objects\Text</Filter>
+    </Text>
+    <Text Include="..\Assets\Objects\Asteroid.txt">
+      <Filter>Game\Objects\Text</Filter>
+    </Text>
+    <Text Include="..\Assets\Objects\Background.txt">
+      <Filter>Game\Objects\Text</Filter>
+    </Text>
+    <Text Include="..\Assets\Objects\Bullet.txt">
+      <Filter>Game\Objects\Text</Filter>
+    </Text>
+    <Text Include="..\Assets\Objects\Coin.txt">
+      <Filter>Game\Objects\Text</Filter>
+    </Text>
+    <Text Include="..\Assets\Objects\Enemy.txt">
+      <Filter>Game\Objects\Text</Filter>
+    </Text>
+    <Text Include="..\Assets\Objects\Monkey.txt">
+      <Filter>Game\Objects\Text</Filter>
+    </Text>
+    <Text Include="..\Assets\Objects\PlayerShip.txt">
+      <Filter>Game\Objects\Text</Filter>
+    </Text>
+    <Text Include="..\Assets\Objects\Spikes.txt">
+      <Filter>Game\Objects\Text</Filter>
+    </Text>
+    <Text Include="..\Assets\Objects\Tilemap.txt">
+      <Filter>Game\Objects\Text</Filter>
+    </Text>
+    <Text Include="..\Assets\Objects\Walls.txt">
+      <Filter>Game\Objects\Text</Filter>
+    </Text>
+    <Text Include="..\Assets\Shaders\colorInverter.frag">
+      <Filter>Game\Effects</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

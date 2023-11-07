@@ -1,0 +1,14 @@
+GameObject
+Planet
+Transform
+0 -1.5
+0
+1.0 1.0
+Physics
+0 0
+0 0
+Sprite
+0
+1
+None
+None

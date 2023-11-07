@@ -1,0 +1,6 @@
+Platform
+{
+	numRows : 16
+	numCols : 9
+	texture : Platform.png
+}

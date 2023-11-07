@@ -1,0 +1,7 @@
+MonkeyJump
+{
+  frameStart : 9
+  frameCount : 1
+  frameDuration : 0
+  spriteSource : Monkey
+}

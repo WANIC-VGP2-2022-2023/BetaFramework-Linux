@@ -1,0 +1,6 @@
+Ship
+{
+  numRows : 1
+  numCols : 1
+  texture : Ship.png
+}

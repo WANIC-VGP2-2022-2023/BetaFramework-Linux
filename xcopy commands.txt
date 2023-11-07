@@ -1,0 +1,22 @@
+The following are the xcopy commands for copying
+DLLs into the proper folders for Beta projects.
+These go into Post-Build events in Visual Studio.
+
+The last three commands are only needed for projects
+using the High-Level API.
+
+xcopy LowLevelAPI\lib\BetaLow_x64_D.dll "$(OutDir)" /Y
+xcopy LowLevelAPI\lib\BetaLow_x64_D.pdb "$(OutDir)" /Y
+xcopy FreeType\lib\win64\freetype.dll "$(OutDir)" /Y
+xcopy HighLevelAPI\lib\BetaHigh_x64_D.dll "$(OutDir)" /Y
+xcopy HighLevelAPI\lib\BetaHigh_x64_D.pdb "$(OutDir)" /Y
+xcopy FMOD\lib\fmodL64.dll "$(OutDir)" /Y
+xcopy FMOD\lib\fmodstudioL64.dll "$(OutDir)" /Y
+
+xcopy LowLevelAPI\lib\BetaLow_x64.dll "$(OutDir)" /Y
+xcopy LowLevelAPI\lib\BetaLow_x64.pdb "$(OutDir)" /Y
+xcopy FreeType\lib\win64\freetype.dll "$(OutDir)" /Y
+xcopy HighLevelAPI\lib\BetaHigh_x64.dll "$(OutDir)" /Y
+xcopy HighLevelAPI\lib\BetaHigh_x64.pdb "$(OutDir)" /Y
+xcopy FMOD\lib\fmod64.dll "$(OutDir)" /Y
+xcopy FMOD\lib\fmodstudio64.dll "$(OutDir)" /Y

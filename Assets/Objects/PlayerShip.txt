@@ -1,0 +1,38 @@
+PlayerShip
+{
+  numComponents : 6
+  Transform
+  {
+    translation : { 0, 0 }
+    rotation : 0
+    scale : { 1, 1 }
+  }
+  Sprite
+  {
+    spriteSource : Ship
+    color : { 0 , 0 , 1 , 1 }
+    zDepth : 0
+  }
+  RigidBody
+  {
+    velocity : { 0, 0 }
+    angularVelocity : 0
+    mass : 1
+  }
+  PlayerShip
+  {
+    forwardThrust : 3
+    rotationSpeed : 3.14159
+    bulletSpeed : 4
+    deathDuration : 4
+    spreadNumber : 3
+    spreadAngle : 0.523599
+  }
+  ScreenWrap
+  {
+  }
+  ColliderCircle
+  {
+    radius : 0.5
+  }
+}

@@ -1,0 +1,46 @@
+Monkey
+{
+  numComponents : 8
+  Transform
+  {
+    translation : { 0, 0 }
+    rotation : 0
+    scale : { 1, 1 }
+  }
+  Sprite
+  {
+    spriteSource : Monkey
+    color : { 1 , 1 , 1 , 1 }
+    zDepth : 0
+  }
+  Animator
+  {
+		playbackSpeed : 1
+		animationIndex : 0
+		numAnimations : 3
+		animationList : { MonkeyIdle, MonkeyJump, MonkeyWalk }
+  }
+  RigidBody
+  {
+    velocity : { 0, 0 }
+    angularVelocity : 0
+    mass : 1
+  }
+  ColliderRectangle
+  {
+    extents : { 0.35, 0.5 }
+  }
+  MonkeyMovement
+  {
+    monkeyWalkSpeed : 2.5
+    monkeyJumpSpeed : 7
+    gravity : { 0, -10 }
+  }
+  MonkeyAnimation
+  {
+  }
+  CameraFollow
+  {
+		tilemap : Platformer
+  }
+}

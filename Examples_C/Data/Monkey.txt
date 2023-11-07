@@ -1,0 +1,21 @@
+GameObject
+Monkey
+Transform
+0 -1.5
+0
+1.5 1.5
+Physics
+0 0
+0 0
+Sprite
+0
+1
+None
+None
+Animation
+0
+0
+0.0
+0.0
+0
+0

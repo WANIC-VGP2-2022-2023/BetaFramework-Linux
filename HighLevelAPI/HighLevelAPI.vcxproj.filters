@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Precompiled">
+      <UniqueIdentifier>{4c48721b-1065-49b1-aafa-606c57904faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{887fe50f-fe48-4b30-8fcc-2d33cfd8ee50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{c3534b6c-0e30-4d9a-9f69-7186d43f9c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{babab642-1f81-4524-8816-ad307e8be667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialization">
+      <UniqueIdentifier>{f3b39512-fb1a-40fc-822d-474d2cc77e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{91bf0e30-41f8-401f-aab6-8035bc1559d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels">
+      <UniqueIdentifier>{92fc7d77-5364-42d0-b69e-63c5190fcc9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Sprites">
+      <UniqueIdentifier>{08b3279a-c046-4c99-a5c8-9f7853c8ffcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Animations">
+      <UniqueIdentifier>{3458ea81-124d-4f08-9a36-a929d2127505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Systems">
+      <UniqueIdentifier>{112761e6-a060-445b-8b62-e5d34d7e8f81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Text">
+      <UniqueIdentifier>{6e10112a-bfb3-4ecd-a0c7-8da14e505b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{ca8aac64-cf75-4702-b823-2aa1e49594d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio\System">
+      <UniqueIdentifier>{8298c703-1910-4b2e-927d-2e1f0490dc49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Resources">
+      <UniqueIdentifier>{40538ffa-1d54-4cd7-b463-d331ca400456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialization\System">
+      <UniqueIdentifier>{322c1aa7-f00c-4816-a9d6-f2321e092158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialization\Interface">
+      <UniqueIdentifier>{44154fc7-adab-44d9-b304-b5bcbfbf57b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collisions">
+      <UniqueIdentifier>{7070a26f-9187-4099-b554-a9f9ee92cdca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collisions\Systems">
+      <UniqueIdentifier>{849ec478-4cb9-41a4-9681-4b72c9424373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\Components">
+      <UniqueIdentifier>{48217486-b9df-4e18-8ebf-322d814f6d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\Systems">
+      <UniqueIdentifier>{23fcb0e2-35be-4262-8fa6-e3d2dac319e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collisions\Components">
+      <UniqueIdentifier>{b864ab13-8623-4aea-a057-5fc5bbcdd636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Components">
+      <UniqueIdentifier>{19ebb0e0-0d06-467b-8f26-455f365aa73a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Intersections">
+      <UniqueIdentifier>{128142bc-11e5-45af-8834-c0dc79d9661e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Components">
+      <UniqueIdentifier>{bd35f41c-1c0b-448b-9a01-392e6dd15044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{15a6a19d-2598-42b1-b8ec-160140ff1a11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio\Events">
+      <UniqueIdentifier>{af578861-9e8f-4145-957a-3f3cd5e24aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{a79bbf93-6780-43d3-ae24-28c3a9ce6920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Components">
+      <UniqueIdentifier>{765e6a67-cc13-461d-9df7-fca29aff556d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Systems">
+      <UniqueIdentifier>{12d92916-e045-4169-b88a-399bc3ad9111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Objects">
+      <UniqueIdentifier>{750e2328-7021-40f6-805d-3d9b17ac81df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\stdafx.h">
+      <Filter>Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SpaceManager.h">
+      <Filter>Levels\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Space.h">
+      <Filter>Levels\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObjectFactory.h">
+      <Filter>Core\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObjectManager.h">
+      <Filter>Core\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component.h">
+      <Filter>Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Transform.h">
+      <Filter>Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sprite.h">
+      <Filter>Graphics\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SpriteSource.h">
+      <Filter>Graphics\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation.h">
+      <Filter>Graphics\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Quadtree.h">
+      <Filter>Collisions\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SpriteText.h">
+      <Filter>Graphics\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ColliderCircle.h">
+      <Filter>Collisions\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ColliderLine.h">
+      <Filter>Collisions\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ColliderRectangle.h">
+      <Filter>Collisions\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BetaHigh.h" />
+    <ClInclude Include="include\BetaHighGraphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SoundManager.h">
+      <Filter>Audio\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BetaHighAudio.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BetaHighLevels.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tilemap.h">
+      <Filter>Levels\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Level.h">
+      <Filter>Levels\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject.h">
+      <Filter>Core\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Collider.h">
+      <Filter>Collisions\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BetaHighSerialization.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Serializable.h">
+      <Filter>Serialization\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BetaHighPhysics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Reactive.h">
+      <Filter>Events\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EventManager.h">
+      <Filter>Events\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BetaHighCollisions.h">
+      <Filter>Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BetaHighEvents.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BetaHighMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Intersection2D.h">
+      <Filter>Math\Intersections</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MapObjectSpawner.h">
+      <Filter>Levels\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ColliderTilemap.h">
+      <Filter>Levels\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SpriteTilemap.h">
+      <Filter>Levels\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Area.h">
+      <Filter>Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResourceManager.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SoundEvent.h">
+      <Filter>Audio\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RigidBody.h">
+      <Filter>Physics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FileStream.h">
+      <Filter>Serialization\System</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BetaHighExport.h" />
+    <ClInclude Include="include\BetaHighCore.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animator.h">
+      <Filter>Graphics\Animations</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>Precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Space.cpp">
+      <Filter>Levels\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SpaceManager.cpp">
+      <Filter>Levels\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObjectFactory.cpp">
+      <Filter>Core\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObjectManager.cpp">
+      <Filter>Core\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component.cpp">
+      <Filter>Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Transform.cpp">
+      <Filter>Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sprite.cpp">
+      <Filter>Graphics\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SpriteSource.cpp">
+      <Filter>Graphics\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animation.cpp">
+      <Filter>Graphics\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Quadtree.cpp">
+      <Filter>Collisions\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SpriteText.cpp">
+      <Filter>Graphics\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ColliderCircle.cpp">
+      <Filter>Collisions\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ColliderLine.cpp">
+      <Filter>Collisions\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ColliderRectangle.cpp">
+      <Filter>Collisions\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SoundManager.cpp">
+      <Filter>Audio\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tilemap.cpp">
+      <Filter>Levels\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Level.cpp">
+      <Filter>Levels\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject.cpp">
+      <Filter>Core\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Collider.cpp">
+      <Filter>Collisions\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Serializable.cpp">
+      <Filter>Serialization\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Reactive.cpp">
+      <Filter>Events\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EventManager.cpp">
+      <Filter>Events\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Intersection2D.cpp">
+      <Filter>Math\Intersections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MapObjectSpawner.cpp">
+      <Filter>Levels\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ColliderTilemap.cpp">
+      <Filter>Levels\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SpriteTilemap.cpp">
+      <Filter>Levels\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Area.cpp">
+      <Filter>Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SoundEvent.cpp">
+      <Filter>Audio\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RigidBody.cpp">
+      <Filter>Physics\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FileStream.cpp">
+      <Filter>Serialization\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animator.cpp">
+      <Filter>Graphics\Animations</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

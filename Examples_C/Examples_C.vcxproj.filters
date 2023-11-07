@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Precompiled">
+      <UniqueIdentifier>{8715df2d-6404-4493-82de-a88abb7cc082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="HighLevelAPI">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="HighLevelAPI\GameStateManager">
+      <UniqueIdentifier>{e7836139-0eb4-4d20-bfa6-925f5ca41bdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLevelAPI\GameObject">
+      <UniqueIdentifier>{61f8d4a7-c245-4eb8-9b0b-acfc8a543912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLevelAPI\Graphics">
+      <UniqueIdentifier>{518a9ca5-ce77-4347-9e4f-a8aa5ab63e3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLevelAPI\Collisions">
+      <UniqueIdentifier>{c3a1af4b-a32b-4091-847d-05173741f7ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLevelAPI\Math">
+      <UniqueIdentifier>{9d0ae697-e3e0-4eca-abe1-0b61f83941ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLevelAPI\Physics">
+      <UniqueIdentifier>{1a12046d-16ec-4777-bada-b787adc9a944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameStates">
+      <UniqueIdentifier>{74d12929-198f-4fdb-8f3c-64704b3e7719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Behaviors">
+      <UniqueIdentifier>{96322247-f712-4c5e-b2f2-bbf3d18aa46b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLevelAPI\GameObject\Systems">
+      <UniqueIdentifier>{187d158d-274c-45dc-8fa2-6ed85a9e9264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLevelAPI\Serialization">
+      <UniqueIdentifier>{51d915a3-3e90-4eb7-9652-5588af8463d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLevelAPI\Graphics\Systems">
+      <UniqueIdentifier>{6ed4c633-276b-4153-b1bc-9df9b2f882d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLevelAPI\Graphics\Components">
+      <UniqueIdentifier>{e896de38-f92c-4f48-9fc1-9ac1dee366a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighLevelAPI\Graphics\Resources">
+      <UniqueIdentifier>{cfaac910-c201-4b09-9060-ac862e64c271}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main.c" />
+    <ClCompile Include="src\stdafx.c">
+      <Filter>Precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics.c">
+      <Filter>HighLevelAPI\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject.c">
+      <Filter>HighLevelAPI\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Transform.c">
+      <Filter>HighLevelAPI\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStateManager.c">
+      <Filter>HighLevelAPI\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStateLevel1.c">
+      <Filter>Game\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStateTable.c">
+      <Filter>HighLevelAPI\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObjectFactory.c">
+      <Filter>HighLevelAPI\GameObject\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObjectManager.c">
+      <Filter>HighLevelAPI\GameObject\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stream.c">
+      <Filter>HighLevelAPI\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animation.c">
+      <Filter>HighLevelAPI\Graphics\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sprite.c">
+      <Filter>HighLevelAPI\Graphics\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SpriteSource.c">
+      <Filter>HighLevelAPI\Graphics\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MeshManager.c">
+      <Filter>HighLevelAPI\Graphics\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SpriteSourceManager.c">
+      <Filter>HighLevelAPI\Graphics\Systems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\stdafx.h">
+      <Filter>Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameStateManager.h">
+      <Filter>HighLevelAPI\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameStateLevel1.h">
+      <Filter>Game\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject.h">
+      <Filter>HighLevelAPI\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Transform.h">
+      <Filter>HighLevelAPI\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Physics.h">
+      <Filter>HighLevelAPI\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameStateTable.h">
+      <Filter>HighLevelAPI\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObjectFactory.h">
+      <Filter>HighLevelAPI\GameObject\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObjectManager.h">
+      <Filter>HighLevelAPI\GameObject\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Stream.h">
+      <Filter>HighLevelAPI\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Animation.h">
+      <Filter>HighLevelAPI\Graphics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sprite.h">
+      <Filter>HighLevelAPI\Graphics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SpriteSource.h">
+      <Filter>HighLevelAPI\Graphics\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MeshManager.h">
+      <Filter>HighLevelAPI\Graphics\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SpriteSourceManager.h">
+      <Filter>HighLevelAPI\Graphics\Systems</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
