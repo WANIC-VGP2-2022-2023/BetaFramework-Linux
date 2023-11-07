@@ -19,10 +19,10 @@ add_library(BetaLow ${LowLevelAPI} ${LowLevelAPI_include} "glfw/include/glad.h" 
 #target_include_directories(LowLevelAPI PRIVATE "LowLevelAPI_C/include/")
 
 
-target_include_directories(BetaLow PRIVATE "fmodstudioapi20218linux/api/core/inc")
+target_include_directories(BetaLow PRIVATE "FMOD/linux/inc")
 target_include_directories(BetaLow PRIVATE "LowLevelAPI/include/")
 target_include_directories(BetaLow PRIVATE "${OPENGL_INCLUDE_DIR}" "glfw/include/" "/usr/include/freetype2")
 
 set(CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS} " -O0")
 
-target_link_libraries(BetaLow OpenGL::GL glfw glm Freetype "fmodstudioapi20218linux/api/core/lib/x86_64/libfmod.so")
+target_link_libraries(BetaLow OpenGL::GL glfw glm Freetype "FMOD/linux/lib/x86_64/libfmod.so")
